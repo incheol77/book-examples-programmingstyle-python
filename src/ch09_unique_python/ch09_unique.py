@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+## How to run
+## $ python2 ch09_unique.py ../../sample_data/pride-and-prejudice.txt
 import sys, re, operator, string
 
 class TFTheOne:
