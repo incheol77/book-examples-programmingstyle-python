@@ -50,7 +50,7 @@ class WordFrequencyManager(TFExercise):
 			self._word_freqs[word] = 1
 
 	def sorted(self):
-		return sorted(self._word_freqs.iteritems(), key=operator.itemgetter(1), reverse=True)
+		return sorted(self._word_freqs.items(), key=operator.itemgetter(1), reverse=True)
 
 	def info(self):
 		return super(WordFrequencyManager, self).info() + \
@@ -70,7 +70,7 @@ class WordFrequencyController(TFExercise):
 
 		word_freqs = self._word_freq_manager.sorted()
 		for (w, c) in word_freqs[0:25]:
-			print w, ' - ', c
+			print(w, ' - ', c)
 
 
 ##############3
