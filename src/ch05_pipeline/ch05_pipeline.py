@@ -18,7 +18,7 @@ def scan(str_data):
     return str_data.split();
 
 def remove_stop_words(word_list):
-    with open('../sample_data/stop_words.txt') as f:
+    with open('../../sample_data/stop_words.txt') as f:
         stop_words = f.read().split(',')
     return [w for w in word_list if not w in stop_words]
 
