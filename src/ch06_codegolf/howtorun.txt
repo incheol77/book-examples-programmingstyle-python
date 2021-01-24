@@ -1,0 +1,7 @@
+python3 ./ch06_codegolf.py ../sample_data/input.txt
+
+or
+
+python3 ./ch06_codegolf.py ../sample_data/pride-and-prejudice.txt
+
+
